@@ -8,3 +8,23 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+a:link
+{
+    color:darkgray;
+    text-decoration-line: none;
+}
+a:hover
+{
+    color:azure;
+    text-decoration-line: underline;
+}
+a:active
+{
+    color:indianred;
+    text-decoration-line: underline;
+}
+a:visited
+{
+    color:dimgray;
+    text-decoration-line: none;
+}
