@@ -10,21 +10,21 @@
 }
 a:link
 {
-    color:darkgray;
+    color:rgb(100, 173, 202);
     text-decoration-line: none;
 }
 a:hover
 {
-    color:azure;
+    color:rgb(175, 224, 243);
     text-decoration-line: underline;
 }
 a:active
 {
-    color:indianred;
+    color:rgb(65, 149, 245);
     text-decoration-line: underline;
 }
 a:visited
 {
-    color:dimgray;
+    color:rgb(85, 176, 212);
     text-decoration-line: none;
 }
