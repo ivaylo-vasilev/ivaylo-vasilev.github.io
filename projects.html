@@ -34,6 +34,7 @@
             <li><a href="#pdftools"><b>pdftools</b></a></li>
             <li><a href="#fetchtools"><b>Fetch tools</b></a></li>
             <li><a href="#cryptx"><b>CryptX</b></a></li>
+            <li><a href="#checksum"><b>checksum</b></a></li>
         </ul>
         <br>
         <div id="netscan">
@@ -147,7 +148,7 @@
                 there are two programs in the collection:</p>
                 <ul>
                     <li><b>pdf2images.py</b> - convert PDF files into images; supported images file formats: <b>PNG</b> 
-                        and <b>JPEG</b></li>
+                        and <b>JPEG</b>; supported images quality: up to 600 dpi</li>
                     <li><b>splitpdf.py</b> - split PDF files into smaller files by given pages</li>
                 </ul>
         </div>
@@ -182,6 +183,21 @@
                 and a Fernet 256-bit key to encrypt and decrypt files of given extensions.</p><br>
             <p><b>Supported file types for encryption:</b> .jpg .jpeg .png .bmp .gif .txt .rtf .doc .docx .odt .csv .xls 
                 .xlsx .odf .ppt .pptx .odp .pdf .mp3 .wma .mp4 .avi .mkv</p>
+        </div>
+        <div style="text-align: right; font-size: small;"><a href="#top">top</a></div>
+        <br>
+        <div style="text-align: center;"><b>[ *** ]</b></div>
+        <br>
+        <div id="checksum">
+            <h2><a href="https://github.com/ivaylo-vasilev/checksum" target="_blank" title="checksum">
+                checksum
+            </a></h2>
+            <h3>Verify file integrity and generate checksum hash values.</h3>
+            <p>For a long time I wanted to have a simple and at the same time effective tool to verify file's integrity using 
+                the given checksum values. That is why I developed my own CLI program, written in Python, that does exactly 
+                this: verifies the integrity of a file using a generated checksum hash value. <b>chksum</b> takes the file as 
+                a command line argument and the hash value specified with the argument -v, --value.</p>
+            <p>I have also made another CLI program to generate checksum hash value(s), <b>mksum</b>.</p>
         </div>
         <div style="text-align: right; font-size: small;"><a href="#top">top</a></div>
         <br>
