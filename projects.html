@@ -35,6 +35,8 @@
             <li><a href="#fetchtools"><b>Fetch tools</b></a></li>
             <li><a href="#cryptx"><b>CryptX</b></a></li>
             <li><a href="#checksum"><b>checksum</b></a></li>
+            <li><a href="#pip-upgrade">pip-upgrade</a></li>
+            <li><a href="#git-massclone">git-massclone</a></li>
         </ul>
         <br>
         <div id="netscan">
@@ -201,9 +203,43 @@
         </div>
         <div style="text-align: right; font-size: small;"><a href="#top">top</a></div>
         <br>
+        <div style="text-align: center;"><b>[ *** ]</b></div>
+        <br>
+        <div id="pip-upgrade">
+            <h2><a href="https://github.com/ivaylo-vasilev/pip-upgrade" target="_blank" title="pip-upgrade">
+                pip-upgrade
+            </a></h2>
+            <h3>Python script to upgrade all installed packages using pip command</h3>
+            <p><b>pip_upgrade.py</b> is a script written in Python that performs an upgrade to <b><i>all</i></b> installed 
+                packages using the <b>pip</b> command. I needed to have a solution to upgrade all the packages that I am using 
+                with a single command. The tool that I use for installing, managing, and uninstalling the packages in my system 
+                is <b>pip</b> and I am working in a <b>virtualenv</b> with access to globally-installed packages. That is the most 
+                common way in Linux distributions. So I needed to "see" only the user-site packages or those installed within the 
+                virtualenv. Once I list them and find which ones need an upgrade I need a proper way to pass their names in pip 
+                and perform an upgrade for each one.</p>
+        </div>
+        <div style="text-align: right; font-size: small;"><a href="#top">top</a></div>
+        <br>
+        <div style="text-align: center;"><b>[ *** ]</b></div>
+        <br>
+        <div id="git-massclone">
+            <h2><a href="https://github.com/ivaylo-vasilev/git-massclone" target="_blank" title="git-massclone">
+                git-massclone
+            </a></h2>
+            <h3>Scripts in Bash and Python for cloning multiple Github repositories with a single command in terminal</h3>
+            <p><b>git-massclone</b> is a collection of scripts written in <b>Bash</b> and <b>Python</b> to mass clone 
+                repositories from <i>Github</i>. Both scripts read a list of Github clone URLs saved in a text file (.TXT) 
+                and run the <code>git clone</code> command for every URL in the terminal. Both scripts do a check wheter 
+                the repository is already cloned or not to prevent cloning a repository many times. The Python based script 
+                checks if Git is installed on the system and <code>git</code> command is available in the terminal. Also the 
+                Python script can be run on both Linux and Windows operating systems (if Python is installed on the Windows 
+                machine).</p>
+        </div>
+        <div style="text-align: right; font-size: small;"><a href="#top">top</a></div>
+        <br>
         <br>
         <div style="font-size: small; text-align: center;">
-            <p><b>&copy; 2025 Ivaylo Vasilev</b></p>
+            <p><b>&copy; 2026 Ivaylo Vasilev</b></p>
         </div>
     </body>
 </html>
